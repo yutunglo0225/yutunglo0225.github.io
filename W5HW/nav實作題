@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <header>
+    <h1 style="text-align:center; color:blue"><b>中華職棒隊伍介紹</b></h1>
+  </header>
+  <nav>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">統一7-Eleven獅</a></a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">中信兄弟</a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">富邦悍將</a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">樂天桃猿</a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">味全龍</a></li>
+    </ul>
+  </nav>
