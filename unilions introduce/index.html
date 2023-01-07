@@ -3,31 +3,35 @@
     <head>
         <meta charset="utf-8">
         <style>
+          body { font-family: monospace; margin-top: 5vh;}
           header, footer {display:block; clear:both; padding: 5px; text-align:center}
-          nav {display:block; float:left; width: 14%; height: 50%; background:rgb(232, 183, 123);padding: 3%}
-          article {display:block; float:right; width: 70%; height: 50%; background:rgb(211, 209, 209); padding: 5%}
+          .nav_bar {display:flex; width: 70vw; background:rgb(232, 183, 123);padding: 1% 3%; border-radius: 8px 8px 0 0; margin: auto;}
+          .nav_bar div { margin: auto; border-right: solid 2px black; width: 33%; text-align: center; font-size: 1.5rem;}
+          .nav_bar div:last-child { border: none;}
+          article {display:block; width: 70vw; height: 50%; background:rgb(211, 209, 209); padding: 3%;border-radius: 0 0 8px 8px; margin: auto;}
+          p { font-size: 1rem; text-align: center;}
+          a { text-decoration: none; font-size: 1.2rem; }
+          a:hover { color: white;}
         </style>
     </head>
     <body>
-     <header>
-     <h1 style="text-align:center; color:balck">統一7-Eleven獅隊介紹</h1>
-     </header>
-        
-     <nav>
-        <ul>
-            <li><a href="home stadium.html">主場</a></li>
-            <li><a href="theme.html">特色主題日</a></li>
-            <li><a href="mascot.html">吉祥物們</a></li>
-        </ul>
-     </nav>
-        
-     <article>
-        <p>歡迎來到我的棒球小世界~</p>
-        <p>選了一些想跟大家分享的可愛小知識，</p>
-        <p>以一個獅迷的視角去介紹我喜愛的球隊!</p>
-     </article>
-     <footer>
-        <p><small>參考資料:統一獅官方臉書、台灣棒球維基館</small></p>
-     </footer>
+        <header>
+        <h1 style="text-align:center; color:black">統一7-Eleven獅隊介紹</h1>
+        </header>
+            
+        <div class="nav_bar">
+            <div><a href="home stadium.html">主場</a></div>
+            <div><a href="theme.html">特色主題日</a></div>
+            <div><a href="mascot.html">吉祥物們</a></div>
+        </div>
+            
+        <article>
+            <p>歡迎來到我的棒球小世界~</p>
+            <p>選了一些想跟大家分享的可愛小知識，</p>
+            <p>以一個獅迷的視角去介紹我喜愛的球隊!</p>
+        </article>
+        <footer>
+            <p><small>參考資料:統一獅官方臉書、台灣棒球維基館</small></p>
+        </footer>
     </body>
 </html>

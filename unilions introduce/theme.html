@@ -1,26 +1,41 @@
 <!DOCTYPE html>
+<style>
+    body { font-family: monospace;}
+    .wrapper { display: flexbox; justify-content: center; margin-top: 5vh;}
+    .theme_box { width: fit-content; margin: auto;}
+    img { border-radius: 16px; box-shadow: 0 0 10px; margin-right: 1vw;}
+    .link_box { margin-top: 15px; padding: 10px; border-radius: 8px; background-color: orange; color: white; width: fit-content;}
+    .link_box:hover { cursor: pointer; transform: scale(1.05);}
+    a { text-decoration: none; color: white; font-weight: bold; font-family: monospace; word-spacing: 1px; font-size: 1rem;}
+    p { font-size: 1rem;}
+</style>
 <body>
-    <h1 style="color:orange">01.超人力霸王</h1>
-    <p>超人力霸王聯名總是吸引許多大小朋友共襄盛舉。有一股神祕的力量讓力霸王系列的主題賽維持著不敗傳說!</p>
-    <img src="hero.jpg" width="500" height="300">
-    <img src="IMAG0420.jpg" width="500" height="300">
-</body>
-<body>
-    <h1 style="color:orange">02.傑尼獅</h1>
-    <p>球迷粉絲和帥氣球員們近距離接觸的好機會，每年都會有不同風格和主題。</p>
-    <img src="jlions.jpg" width="500" height="300">
-    <img src="IMAG0561.jpg" width="500" height="300">
-</body>
-<body>
-    <h1 style="color:orange">03.廟宇祭</h1>
-    <p>結合在地文化，將臺南棒球場化身為府城獅吼宮，掛滿燈籠、搭起拱門的球場別有一番風味!</p>
-    <img src="temple.jpg" width="500" height="300">
-    <img src="IMAG1157.jpg" width="500" height="300">
-    <br><a href="https://youtu.be/zPet2TI0j3E">廟宇祭VLOG</a>
-</body>
-<body>
-    <h1 style="color:orange">04.獅吼音樂祭</h1>
-    <p>再球場的草皮上舉辦演唱會!所以又叫做草地音樂會。除了堅強的藝人陣容外，每年最備受矚目的絕對是球員們的表演!</p>
-    <img src="concert.jpg" width="500" height="300">
-    <img src="music.jpg" width="500" height="300">
+    <div class="wrapper">
+        <div class="theme_box">
+            <h1 style="color:orange">01.超人力霸王</h1>
+            <p>超人力霸王聯名總是吸引許多大小朋友共襄盛舉。有一股神祕的力量讓力霸王系列的主題賽維持著不敗傳說!</p>
+            <img src="hero.jpg" width="500" height="300">
+            <img src="IMAG0420.jpg" width="500" height="300">
+        </div>
+        <div class="theme_box">
+            <h1 style="color:orange">02.傑尼獅</h1>
+            <p>球迷粉絲和帥氣球員們近距離接觸的好機會，每年都會有不同風格和主題。</p>
+            <img src="jlions.jpg" width="500" height="300">
+            <img src="IMAG0561.jpg" width="500" height="300">
+        </div>
+        <div class="theme_box">
+            <h1 style="color:orange">03.廟宇祭</h1>
+            <p>結合在地文化，將臺南棒球場化身為府城獅吼宮，掛滿燈籠、搭起拱門的球場別有一番風味!</p>
+            <img src="temple.jpg" width="500" height="300">
+            <img src="IMAG1157.jpg" width="500" height="300">
+            <br>
+            <div class="link_box"><a href="https://youtu.be/zPet2TI0j3E">廟宇祭VLOG</a></div>
+        </div>
+        <div class="theme_box">
+            <h1 style="color:orange">04.獅吼音樂祭</h1>
+            <p>在球場的草皮上舉辦演唱會!所以又叫做草地音樂會。除了堅強的藝人陣容外，每年最備受矚目的絕對是球員們的表演!</p>
+            <img src="concert.jpg" width="500" height="300">
+            <img src="music.jpg" width="500" height="300">
+        </div>
+    </div>
 </body>
